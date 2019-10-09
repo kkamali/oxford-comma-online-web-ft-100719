@@ -10,7 +10,7 @@ def oxford_comma(array)
         end
         new_word << " and "
       elsif index > 0
-        new_word << ", "
+        new_word << ","
       end
         new_word << part
     end
