@@ -7,7 +7,7 @@ def oxford_comma(array)
       if index + 1 == array.length
         new_word << ", and "
       else
-        new_word << ","
+        new_word << ", "
       end
         new_word << part
     end
