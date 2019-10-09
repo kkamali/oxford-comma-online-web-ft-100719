@@ -11,5 +11,6 @@ def oxford_comma(array)
       end
         new_word << part
     end
+    return new_word
   end
 end
