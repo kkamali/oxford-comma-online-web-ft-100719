@@ -2,7 +2,7 @@ def oxford_comma(array)
   if array.length == 1 
     return array.join
   elsif array.length == 2 
-    return array.join("and")
+    return array.join(" and ")
   else
     new_word = ""
     array.each_with_index do |part, index|
