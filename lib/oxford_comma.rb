@@ -6,6 +6,8 @@ def oxford_comma(array)
     array.each_with_index do |part, index|
       if index + 1 == array.length
         new_word << ", and "
+      else
+        new_word << ","
       end
         new_word << part
     end
